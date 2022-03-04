@@ -104,5 +104,60 @@ collect();
 
 
 /* part 7
->>>>>>fail */
+>>>>>>success */
+moveForward();
+moveForward();
+collect();
+collect();
+for (var count = 0; count < 2; count++) {
+  turnLeft();
+  moveForward();
+}
+for (var count2 = 0; count2 < 2; count2++) {
+  collect();
+}
+turnLeft();
+for (var count3 = 0; count3 < 3; count3++) {
+  moveForward();
+}
+turnRight();
+moveForward();
+for (var count4 = 0; count4 < 2; count4++) {
+  collect();
+}
+moveForward();
+turnRight();
+moveForward();
+for (var count5 = 0; count5 < 2; count5++) {
+  collect();
+}
 
+/* part 8
+>>>>>>success */
+moveForward();
+for (var count = 0; count < 3; count++) {
+  collect();
+}
+turnLeft();
+moveForward();
+turnLeft();
+collect();
+collect();
+moveForward();
+collect();
+
+/* part 9
+>>>>>>success */
+moveForward();
+turnRight();
+moveForward();
+turnLeft();
+for (var count = 0; count < 5; count++) {
+  collect();
+}
+moveForward();
+turnRight();
+moveForward();
+for (var count2 = 0; count2 < 5; count2++) {
+  collect();
+}
