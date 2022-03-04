@@ -32,6 +32,12 @@ turnRight();
 moveForward();
 collect();
 
+// Alternative: part 3
+moveForward();
+for (var count = 0; count < 3; count++) {
+  collect();
+}
+
 /* part 4
 >>>>>>fail */
 moveForward();
@@ -102,6 +108,21 @@ collect();
 moveForward();
 collect();
 
+//Alternative: part 6
+for (var count = 0; count < 3; count++) {
+  moveForward();
+  collect();
+}
+turnRight();
+for (var count2 = 0; count2 < 2; count2++) {
+  moveForward();
+}
+collect();
+turnRight();
+for (var count3 = 0; count3 < 2; count3++) {
+  moveForward();
+  collect();
+}
 
 /* part 7
 >>>>>>success */
