@@ -4,32 +4,32 @@ These block codes translate into JavaScript
 
 "Tracing the path that lead to the pig.">>>>Get the Bird to the Pig. */
 
-/*part 3 */
+// part 3 
 moveForward();
 moveForward();
 moveForward();
 
-/*part 4 */
+// part 4 
 moveForward();
 turnLeft();
 moveForward();
 moveForward();
 
-/* part 5 */
+// part 5 
 moveForward();
 turnRight();
 moveForward();
 turnLeft();
 moveForward();
 
-/* part 6 */
+// part 6 
 moveForward();
 moveForward();
 turnLeft();
 moveForward();
 moveForward();
 
-/* part 7 */
+// part 7 
 for (var count = 0; count < 4; count++) {
   moveForward();
 }
@@ -38,7 +38,7 @@ for (var count2 = 0; count2 < 5; count2++) {
   moveForward();
 }
 
-/* part 8 */
+// part 8 
 moveForward();
 turnLeft();
 for (var count = 0; count < 2; count++) {
@@ -53,7 +53,7 @@ for (var count3 = 0; count3 < 3; count3++) {
   moveForward();
 }
 
-/* part 9 */
+// part 9 
 moveForward();
 turnRight();
 moveForward();
@@ -66,8 +66,7 @@ moveForward();
 turnRight();
 moveForward();
 
-
-*/ Alternatively, you can make the code shorter: Part 9 */
+// Alternatively, you can make the code shorter: Part 9 
 
 for (var count = 0; count < 4; count++) {
   moveForward();
@@ -89,7 +88,7 @@ for (var count2 = 0; count2 < 2; count2++) {
   moveForward();
 }
 
-/* Second_path: */
+// Second_path:
 
 turnLeft();
 for (var count = 0; count < 2; count++) {
